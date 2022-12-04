@@ -5,7 +5,7 @@ use std::{
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     // PART 1 OF 2 -- The Tournament --
-    let file = File::open("input.txt")?;
+    let file = File::open("inputs/day-2.txt")?;
     let reader = BufReader::new(file);
     let mut score = 0u32;
 
@@ -25,7 +25,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("Part 1 result: {score}");
 
     // PART 2 OF 2
-    let file = File::open("input.txt")?;
+    let file = File::open("inputs/day-2.txt")?;
     let reader = BufReader::new(file);
     let mut score = 0u32;
 

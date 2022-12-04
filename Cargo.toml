@@ -5,8 +5,7 @@ edition = "2021"
 
 [workspace]
 members = [
-    "days/day-2",
-    "days/day-3"
+    "days/*"
 ]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
